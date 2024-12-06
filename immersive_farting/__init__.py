@@ -28,7 +28,7 @@ FART_ALARM = None
 class FartAlarm():
     INTERVAL_RATE = 2  # Run every INTERVAL_RATE attempts to decrease number of runs for performance gain
     FART_INTERVAL_PER_SIM = 7500 * INTERVAL_RATE
-    FART_CHANCE_BASE = 20
+    FART_CHANCE_BASE = 80
 
     ALLOWED_CLOCK_SPEEDS = {
         ClockSpeedMode.NORMAL,
